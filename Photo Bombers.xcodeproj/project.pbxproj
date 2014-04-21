@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		701A2E3FE8E64C1E85A4A2EA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D976B2C25594317B9BADB07 /* libPods.a */; };
+		9E3B60AB19051E0500AF22B5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3B60AA19051E0500AF22B5 /* Security.framework */; };
+		9E3B60AE1905515D00AF22B5 /* PhotoController.h in Sources */ = {isa = PBXBuildFile; fileRef = 9E3B60AC1905515D00AF22B5 /* PhotoController.h */; };
+		9E3B60AF1905515D00AF22B5 /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3B60AD1905515D00AF22B5 /* PhotoController.m */; };
+		9E3B60B21905534400AF22B5 /* DetailedViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 9E3B60B01905534400AF22B5 /* DetailedViewController.h */; };
+		9E3B60B31905534400AF22B5 /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3B60B11905534400AF22B5 /* DetailedViewController.m */; };
+		9E3B60B619055BFE00AF22B5 /* PresentDetailTransition.h in Sources */ = {isa = PBXBuildFile; fileRef = 9E3B60B419055BFE00AF22B5 /* PresentDetailTransition.h */; };
+		9E3B60B719055BFE00AF22B5 /* PresentDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3B60B519055BFE00AF22B5 /* PresentDetailTransition.m */; };
+		9E3B60BA19055EAD00AF22B5 /* DismissDetailTransition.h in Sources */ = {isa = PBXBuildFile; fileRef = 9E3B60B819055EAD00AF22B5 /* DismissDetailTransition.h */; };
+		9E3B60BB19055EAD00AF22B5 /* DismissDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3B60B919055EAD00AF22B5 /* DismissDetailTransition.m */; };
 		9E57CEDD190414CE0086AF52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E57CEDC190414CE0086AF52 /* Foundation.framework */; };
 		9E57CEDF190414CE0086AF52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E57CEDE190414CE0086AF52 /* CoreGraphics.framework */; };
 		9E57CEE1190414CE0086AF52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E57CEE0190414CE0086AF52 /* UIKit.framework */; };
@@ -19,6 +29,8 @@
 		9E57CEF8190414CE0086AF52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E57CEE0190414CE0086AF52 /* UIKit.framework */; };
 		9E57CF00190414CE0086AF52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E57CEFE190414CE0086AF52 /* InfoPlist.strings */; };
 		9E57CF02190414CE0086AF52 /* Photo_BombersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E57CF01190414CE0086AF52 /* Photo_BombersTests.m */; };
+		9E57CF0D190414ED0086AF52 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E57CF0C190414ED0086AF52 /* PhotosViewController.m */; };
+		9E57CF10190425A30086AF52 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E57CF0F190425A30086AF52 /* PhotoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		032F2BCD21324F36A6F5078D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		5D976B2C25594317B9BADB07 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E3B60AA19051E0500AF22B5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9E3B60AC1905515D00AF22B5 /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = PhotoController.h; sourceTree = "<group>"; };
+		9E3B60AD1905515D00AF22B5 /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
+		9E3B60B01905534400AF22B5 /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		9E3B60B11905534400AF22B5 /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
+		9E3B60B419055BFE00AF22B5 /* PresentDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = PresentDetailTransition.h; sourceTree = "<group>"; };
+		9E3B60B519055BFE00AF22B5 /* PresentDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentDetailTransition.m; sourceTree = "<group>"; };
+		9E3B60B819055EAD00AF22B5 /* DismissDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = DismissDetailTransition.h; sourceTree = "<group>"; };
+		9E3B60B919055EAD00AF22B5 /* DismissDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissDetailTransition.m; sourceTree = "<group>"; };
 		9E57CED9190414CE0086AF52 /* Photo Bombers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Bombers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E57CEDC190414CE0086AF52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9E57CEDE190414CE0086AF52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +71,10 @@
 		9E57CEFD190414CE0086AF52 /* Photo BombersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Photo BombersTests-Info.plist"; sourceTree = "<group>"; };
 		9E57CEFF190414CE0086AF52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E57CF01190414CE0086AF52 /* Photo_BombersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo_BombersTests.m; sourceTree = "<group>"; };
+		9E57CF0B190414ED0086AF52 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		9E57CF0C190414ED0086AF52 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		9E57CF0E190425A30086AF52 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		9E57CF0F190425A30086AF52 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +82,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3B60AB19051E0500AF22B5 /* Security.framework in Frameworks */,
 				9E57CEDF190414CE0086AF52 /* CoreGraphics.framework in Frameworks */,
 				9E57CEE1190414CE0086AF52 /* UIKit.framework in Frameworks */,
 				9E57CEDD190414CE0086AF52 /* Foundation.framework in Frameworks */,
+				701A2E3FE8E64C1E85A4A2EA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +110,7 @@
 				9E57CEFB190414CE0086AF52 /* Photo BombersTests */,
 				9E57CEDB190414CE0086AF52 /* Frameworks */,
 				9E57CEDA190414CE0086AF52 /* Products */,
+				032F2BCD21324F36A6F5078D /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +126,12 @@
 		9E57CEDB190414CE0086AF52 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9E3B60AA19051E0500AF22B5 /* Security.framework */,
 				9E57CEDC190414CE0086AF52 /* Foundation.framework */,
 				9E57CEDE190414CE0086AF52 /* CoreGraphics.framework */,
 				9E57CEE0190414CE0086AF52 /* UIKit.framework */,
 				9E57CEF5190414CE0086AF52 /* XCTest.framework */,
+				5D976B2C25594317B9BADB07 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +143,18 @@
 				9E57CEEC190414CE0086AF52 /* AppDelegate.m */,
 				9E57CEEE190414CE0086AF52 /* Images.xcassets */,
 				9E57CEE3190414CE0086AF52 /* Supporting Files */,
+				9E57CF0B190414ED0086AF52 /* PhotosViewController.h */,
+				9E57CF0C190414ED0086AF52 /* PhotosViewController.m */,
+				9E57CF0E190425A30086AF52 /* PhotoCell.h */,
+				9E57CF0F190425A30086AF52 /* PhotoCell.m */,
+				9E3B60AC1905515D00AF22B5 /* PhotoController.h */,
+				9E3B60AD1905515D00AF22B5 /* PhotoController.m */,
+				9E3B60B01905534400AF22B5 /* DetailedViewController.h */,
+				9E3B60B11905534400AF22B5 /* DetailedViewController.m */,
+				9E3B60B419055BFE00AF22B5 /* PresentDetailTransition.h */,
+				9E3B60B519055BFE00AF22B5 /* PresentDetailTransition.m */,
+				9E3B60B819055EAD00AF22B5 /* DismissDetailTransition.h */,
+				9E3B60B919055EAD00AF22B5 /* DismissDetailTransition.m */,
 			);
 			path = "Photo Bombers";
 			sourceTree = "<group>";
@@ -151,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E57CF05190414CE0086AF52 /* Build configuration list for PBXNativeTarget "Photo Bombers" */;
 			buildPhases = (
+				796AA810569E4251BC18BF23 /* Check Pods Manifest.lock */,
 				9E57CED5190414CE0086AF52 /* Sources */,
 				9E57CED6190414CE0086AF52 /* Frameworks */,
 				9E57CED7190414CE0086AF52 /* Resources */,
+				AEE14A3A01664B8D8C21A217 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +237,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Pixelmilk;
 				TargetAttributes = {
+					9E57CED8190414CE0086AF52 = {
+						DevelopmentTeam = 74SUD7ZAQ8;
+					};
 					9E57CEF3190414CE0086AF52 = {
 						TestTargetID = 9E57CED8190414CE0086AF52;
 					};
@@ -234,13 +283,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		796AA810569E4251BC18BF23 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AEE14A3A01664B8D8C21A217 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E57CED5190414CE0086AF52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E57CF10190425A30086AF52 /* PhotoCell.m in Sources */,
 				9E57CEED190414CE0086AF52 /* AppDelegate.m in Sources */,
+				9E3B60BB19055EAD00AF22B5 /* DismissDetailTransition.m in Sources */,
+				9E3B60AF1905515D00AF22B5 /* PhotoController.m in Sources */,
+				9E57CF0D190414ED0086AF52 /* PhotosViewController.m in Sources */,
 				9E57CEE9190414CE0086AF52 /* main.m in Sources */,
+				9E3B60AE1905515D00AF22B5 /* PhotoController.h in Sources */,
+				9E3B60B31905534400AF22B5 /* DetailedViewController.m in Sources */,
+				9E3B60BA19055EAD00AF22B5 /* DismissDetailTransition.h in Sources */,
+				9E3B60B21905534400AF22B5 /* DetailedViewController.h in Sources */,
+				9E3B60B619055BFE00AF22B5 /* PresentDetailTransition.h in Sources */,
+				9E3B60B719055BFE00AF22B5 /* PresentDetailTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,26 +446,34 @@
 		};
 		9E57CF06190414CE0086AF52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032F2BCD21324F36A6F5078D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Photo Bombers/Photo Bombers-Prefix.pch";
 				INFOPLIST_FILE = "Photo Bombers/Photo Bombers-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		9E57CF07190414CE0086AF52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032F2BCD21324F36A6F5078D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Photo Bombers/Photo Bombers-Prefix.pch";
 				INFOPLIST_FILE = "Photo Bombers/Photo Bombers-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -437,6 +537,7 @@
 				9E57CF07190414CE0086AF52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E57CF08190414CE0086AF52 /* Build configuration list for PBXNativeTarget "Photo BombersTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +546,7 @@
 				9E57CF0A190414CE0086AF52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
